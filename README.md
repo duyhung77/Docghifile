@@ -9,6 +9,7 @@ int main()
 
     // Mở một file 
     ofstream outfile;
+    // File được tạo
     outfile.open("savefile.txt");
 
     cout << "Ghi du lieu vao trong file!" << endl;
